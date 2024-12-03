@@ -37,10 +37,14 @@ body {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+.app .contain {
+  margin-bottom: 1.5rem;
+}
+
 .user-input {
   display: flex;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: .5rem;
   justify-content: space-between;
   align-items: center;
 }
