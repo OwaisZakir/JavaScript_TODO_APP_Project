@@ -85,9 +85,9 @@ This project is open-source, and contributions are welcome under the MIT License
 
 If you have any questions or feedback, feel free to reach out!
 
-- **Email**: [My Email](mailto:owaiszakir88@gmail.com)
+- **Email**: [owaiszakir88@gmail.com](owaiszakir88@gmail.com)
 - **GitHub**: [Repo Link](https://github.com/owaiszakir/todo-app)
-- **Linkedin**: [Linkedin Profile](https://likedin.com/in/owaiszakir)
+- **Linkedin**: [Linkedin Profile](https://linkedin.com/in/owaiszakir)
 
 ---
 
