@@ -112,6 +112,5 @@ document.querySelectorAll(".fa-check").forEach(function (completeBtn) {
   addCompleteListener(completeBtn);
 });
 deleteAllBtn.addEventListener("click", (e) => {
-  list.innerHTML = ""
-  console.log("done");
+  list.innerHTML = "";
 });
