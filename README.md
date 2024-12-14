@@ -85,12 +85,13 @@ This project is open-source, and contributions are welcome under the MIT License
 
 If you have any questions or feedback, feel free to reach out!
 
-- **Email**: [owaiszakir88@gmail.com]
-- **GitHub**: [TODO-APP](https://github.com/owaiszakir/todo-app)
+- **Email**: [My Email](mailto:owaiszakir88@gmail.com)
+- **GitHub**: [Repo Link](https://github.com/owaiszakir/todo-app)
+- **Linkedin**: [Linkedin Profile](https://likedin.com/in/owaiszakir)
 
 ---
 
 ### 🏆 Acknowledgments
 
-- **[Institute Name]** for providing an amazing learning environment.
-- Special thanks to **[Sir's Name]** for their mentorship and support during the development of this project.
+- **Suffah Institute Of Technology** for providing an amazing learning environment.
+- Special thanks to ** Zubair Shaikh ** for their mentorship and support during the development of this project.
