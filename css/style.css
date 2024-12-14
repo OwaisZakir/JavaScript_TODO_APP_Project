@@ -5,13 +5,11 @@
   --light-color: #f5f5f5;
   --input-border: #333;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html,
 body {
   width: 100%;
@@ -23,8 +21,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
-
 .app {
   display: flex;
   flex-direction: column;
@@ -36,19 +34,16 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-
 .app .contain {
   margin-bottom: 1.5rem;
 }
-
 .user-input {
   display: flex;
   width: 100%;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   justify-content: space-between;
   align-items: center;
 }
-
 .user-input input {
   padding: 12px 20px;
   width: 80%;
@@ -59,12 +54,10 @@ body {
   font-size: 16px;
   transition: all 0.3s ease;
 }
-
 .user-input input:focus {
   border-color: var(--secondary-color);
   box-shadow: 0 0 10px rgba(10, 182, 171, 0.6);
 }
-
 .user-input button {
   padding: 12px 20px;
   margin-left: 10px;
@@ -74,24 +67,26 @@ body {
   cursor: pointer;
   border-radius: 30px;
   font-size: 16px;
+  white-space: nowrap;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 .user-input button:hover {
-  background-color: #098c88;
   transform: scale(1.05);
 }
-
+#deleteAllBtn {
+  background-color: var(--accent-color);
+}
+#deleteAllBtn:hover {
+  background-color: #ff4500;
+}
 .todo-list {
   width: 100%;
 }
-
 .todo-list ul {
   list-style-type: none;
   width: 100%;
   padding: 0;
 }
-
 .todo-list li {
   background-color: #333;
   color: var(--light-color);
@@ -104,49 +99,43 @@ body {
   font-size: 16px;
   transition: all 0.3s ease;
 }
-
 .todo-list li:hover {
   background-color: #444;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
 }
-
 .todo-list li.completed {
-  background-color: #2e2e2e;
+  background-color: #098d897a;
   text-decoration: line-through;
-  opacity: 0.7;
-  color: #4caf50;
-  transition: all 0.3s ease;
-  transform: scale(1.02); /* Slightly scale up for emphasis */
+  opacity: 0.8;
+  color: #ffffff;
 }
-
 .todo-list li.completed:hover {
-  background-color: #333; /* Slightly revert background color on hover */
-  transform: scale(1.05); /* Increase scale for hover effect */
+  background-color: #333;
+  color: rgb(231, 212, 216);
+  transform: scale(1.05);
+  opacity: 1;
 }
-
 .todo-list li i {
   margin-left: 15px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 .todo-list li .fa-trash {
   color: var(--accent-color);
 }
-
 .todo-list li .fa-edit {
   color: #ffcc00;
 }
-
+.todo-list li .fa-check {
+  color: #e6dfe2;
+}
 .todo-list li i:hover {
   transform: scale(1.2);
 }
-
 .todo-list li .fa-trash:hover {
   color: #ff4500;
 }
-
 .todo-list li .fa-edit:hover {
   color: #ff9c00;
 }
