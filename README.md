@@ -28,7 +28,7 @@ A sleek and interactive To-Do list application built to help users manage their 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/owaiszakir/JavaScript_TODO_APP_Project.git
 ```
 
 ### Open the App
@@ -48,7 +48,7 @@ Simply open the `index.html` file in your browser to start using the app.
 
 ## 🌟 Special Mentions
 
-This project was developed as part of my course at **[Institute Name]**. I would like to extend a special thanks to **[Sir's Name]** for their continuous guidance and support.
+This project was developed as part of my course at **[Suffah Institute of Technology]**. I would like to extend a special thanks to **[Zubair Shaikh]** for their continuous guidance and support.
 
 ---
 
@@ -86,7 +86,7 @@ This project is open-source, and contributions are welcome under the MIT License
 If you have any questions or feedback, feel free to reach out!
 
 - **Email**: [owaiszakir88@gmail.com](owaiszakir88@gmail.com)
-- **GitHub**: [Repo Link](https://github.com/owaiszakir/todo-app)
+- **GitHub**: [Repo Link](https://github.com/owaiszakir/JavaScript_TODO_APP_Project)
 - **Linkedin**: [Linkedin Profile](https://linkedin.com/in/owaiszakir)
 
 ---
